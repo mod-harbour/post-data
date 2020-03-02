@@ -1,8 +1,8 @@
 # post-data
 
-An alternative to mod_harbour's `AP_PostPairs()` function to get the `POST`
-parameters from a form as a harbour hash. The (planned) differences from
-`AP_PostPairs()` are:
+An experimental alternative to mod_harbour's `AP_PostPairs()` function to get
+the `POST` parameters from a form as a harbour hash. The (planned) differences
+from `AP_PostPairs()` are:
 
 - A correct implementation of the `application/x-www-form-urlencoded` decoder.
 - Additional support for the `multipart/form-data` and `application/json`
