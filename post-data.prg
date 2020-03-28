@@ -36,8 +36,8 @@ function PostData()
     if paramBoundary == 0 .OR. At(bodyContentType, ',') < paramBoundary
         paramBoundary := At(bodyContentType, ',')
     endif
-    if paramBoundary == 0 .OR. At(bodyContentType, ' ') < paramBounday
-        paramBounday := At(bodyContentType, ' ')
+    if paramBoundary == 0 .OR. At(bodyContentType, ' ') < paramBoundary
+        paramBoundary := At(bodyContentType, ' ')
     endif
 
     // Now, the part of `bodyContentType` left of the first space, comma or
