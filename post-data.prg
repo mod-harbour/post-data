@@ -93,4 +93,4 @@ function ParseUrlencoded(string)
         // replaced by spaces). The resulting strings are usually UTF-8-encoded.
         hb_HSet(hb_UrlDecode(name), hb_UrlDecode(value))
    next
-return nil
+return hPairs
